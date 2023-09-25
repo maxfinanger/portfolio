@@ -1,0 +1,128 @@
+body {
+    border: 0;
+    padding: 0;
+    background-color: #28282b;
+    color: #f2f3f4;
+    height: 500px;
+    width: 2480;
+    font-family: sans-serif;
+}
+
+h4 {
+    color: #d3d3d3;
+    font-style: italic;
+}
+
+#blueBox {
+    width: 25%;
+    height: 105%;
+    background-color: #b0e0e6;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    color: #28282b;
+    z-index: -1;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+#contactInformation {
+    position: absolute;
+    top: -6%;
+    left: 0;
+    color: #28282b;
+    padding: 50px;
+    z-index: 2;
+}
+
+#programs {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    color: #28282b;
+    padding: 50px;
+    z-index: 2;
+}
+
+#abilities {
+    position: absolute;
+    top: 42%;
+    left: 0;
+    color: #28282b;
+    padding: 50px;
+    z-index: 10;
+}
+
+#interests {
+    position: absolute;
+    top: 31%;
+    left: 0;
+    color: #28282b;
+    padding: 50px;
+}
+
+li {
+    color: #efeded;
+}
+
+header {
+    position: absolute;
+    left: 32%;
+    top: -1.5%;
+}
+
+main {
+    position: absolute;
+    left: 30%;
+    top: 11%;
+}
+
+img {
+    width: 250px;
+    border-radius: 50%;
+    border: solid 5px #b0e0e6;
+    position: absolute;
+    right: 2%;
+    top: 5%;
+}
+
+#language {
+    position: absolute;
+    top: 53%;
+    left: 0;
+    color: #28282b;
+    padding: 50px;
+}
+
+#linkedIn {
+    color: #28282b;
+    text-decoration: none;
+}
+
+#gitHub {
+    color: #28282b;
+    text-decoration: none;
+}
+
+span {
+    color: #d3d3d3;
+    font-size: smaller;
+}
+
+#references {
+    position: absolute;
+    top: 78%;
+    left: 0;
+    color: #28282b;
+    padding: 50px;
+    z-index: 2;
+}
+
+#courses {
+    position: absolute;
+    top: 67%;
+    left: 0;
+    color: #28282b;
+    padding: 50px;
+    z-index: 10;
+}
