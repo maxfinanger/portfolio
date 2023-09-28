@@ -12,3 +12,7 @@ body {
         backdrop-filter: blur(10px);
     }
 }
+
+img.cvImg {
+    height: 10rem;
+}
