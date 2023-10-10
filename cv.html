@@ -65,27 +65,27 @@
                         >
                             <li class="nav-item">
                                 <a
-                                    class="nav-link active"
+                                    class="nav-link"
                                     aria-current="page"
-                                    href="/html/index.html"
+                                    href="/index.html"
                                     >Home</a
                                 >
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="/html/about.html"
-                                    >About</a
+                                <a class="nav-link" href="/about.html">About</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" href="/cv.html"
+                                    >CV</a
                                 >
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="/html/cv.html">CV</a>
-                            </li>
-                            <li class="nav-item mx-2">
-                                <a class="nav-link" href="/html/portfolio.html"
+                                <a class="nav-link" href="/portfolio.html"
                                     >Portfolio</a
                                 >
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="/html/contact.html"
+                                <a class="nav-link" href="/contact.html"
                                     >Contact</a
                                 >
                             </li>
@@ -94,16 +94,54 @@
                 </div>
             </div>
         </nav>
-
-        <!-- Main -->
-        <main>
-            <section
-                class="w-100 vh-100 d-flex flex-column justify-content-center align-items-center text-white fs-1"
-            >
-                <h1 class="p-2" style="font-size: 1.5em">Work Portfolio</h1>
-                <h2 class="p-2" style="font-size: 1em">and</h2>
-                <h1 class="p-2" style="font-size: 1.3em">Personal Website</h1>
-            </section>
-        </main>
+        <div class="container vh-100">
+            <!-- Main -->
+            <main class="text-white row g-2 p-5">
+                <div class="col-12">
+                    <div class="pt-5 mx-auto d-block">
+                        <img
+                            class="rounded-pill rounded-xs border border-secondary cvImg border border-2 border-white"
+                            src="/img/cvImage.jpeg"
+                            alt="profileImg"
+                        />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <section class="card h-100 p-1 shadow">
+                        <div class="">
+                            <h2>Education</h2>
+                            <p>
+                                Bachelor of Science - Interactive Design -
+                                Kristiania College, Oslo 2022 - 2025
+                            </p>
+                            <p>
+                                Economy, History and other subjects - Oslo and
+                                Berlin 2017 - 2022
+                            </p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-12 col-md-6">
+                    <section class="card h-100 p-1 shadow">
+                        <div>
+                            <h2>Work Experience</h2>
+                            <p>
+                                Assistant at Nomvec - November, 2022 - Currently
+                                Employed
+                            </p>
+                            <p>
+                                Shift Leader at Verisure - March, 2021 - July,
+                                2022
+                            </p>
+                            <p>
+                                Previous employed as Alarmoperator, Storage
+                                Worker, Storeworker, swimming instructor etc.
+                                while in highschool and while studying
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
     </body>
 </html>
